@@ -6,6 +6,10 @@ import Condition from './Condition';
 import MailBox from './MailBox';
 import List from './List';
 import NamedForm from './NamedForm';
+import MultiInput from './MultiInput';
+import Calculator from './Boil';
+import Some from './Every';
+// import Temperature from './Temperature';
 import './App.css';
 
 class App extends Component {
@@ -21,6 +25,11 @@ class App extends Component {
         <MailBox msg={[1,2,3]} />
         <List list={list} />
         <NamedForm />
+        <MultiInput />
+        <Calculator />
+        {/* <Temperature scale="c" />
+        <Temperature scale="f" /> */}
+        <Some />
       </div>
     );
   }
